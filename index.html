@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html ng-app>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <link href="styles/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/controllers.js" type="text/javascript"></script>
+    
+    <title>Reading List</title>
+  </head>
+  <body ng-controller="ReadingListCtrl">
+    
+    <ul ng-controller="PhoneListCtrl">            
+        <li ng-repeat="phone in phones">
+            {{phone.name}}
+            <p>{{phone.snippet}}</p>
+        </li>
+    </ul>
+    
+    <h3>Currently Reading</h3>
+    <p>Total: {{currentlyReading.length}}</p>
+    <p>Search: <input ng-model="currentBooksQuery"></p>
+     <ul>            
+        <li ng-repeat="book in currentlyReading | filter:currentBooksQuery | orderBy:orderProp">
+            {{book.name}}
+            {{book.author}} 
+          <br />
+            {{book.isbn}} | {{book.amazonLink}}
+          <br />
+              <img ng-src="{{book.imageUrl}}">
+        </li>
+    </ul>
+    
+    <h3>Already Read</h3>
+    
+    
+    <h3>About This Website</h3>
+    
+    
+    <h3>About Me</h3>
+    
+    <br />
+  </body>
+</html>
