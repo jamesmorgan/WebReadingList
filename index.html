@@ -12,35 +12,29 @@
   </head>
   <body ng-controller="ReadingListCtrl">
     
-    <ul ng-controller="PhoneListCtrl">            
-        <li ng-repeat="phone in phones">
-            {{phone.name}}
-            <p>{{phone.snippet}}</p>
-        </li>
-    </ul>
-    
     <h3>Currently Reading</h3>
     <p>Total: {{currentlyReading.length}}</p>
     <p>Search: <input ng-model="currentBooksQuery"></p>
-     <ul>            
-        <li ng-repeat="book in currentlyReading | filter:currentBooksQuery | orderBy:orderProp">
-            {{book.name}}
-            {{book.author}} 
-          <br />
-            {{book.isbn}} | {{book.amazonLink}}
-          <br />
-              <img ng-src="{{book.imageUrl}}">
-        </li>
-    </ul>
+    <div class="book-entry-container" ng-repeat="book in currentlyReading | filter:currentBooksQuery | orderBy:orderProp">
+        <ng:include src="'template/book-entry.html'"></ng:include>    
+    </div>
+    
+    <hr />
     
     <h3>Already Read</h3>
-    
+    <p>Total: {{alreadyRead.length}}</p>
+    <p>Search: <input ng-model="alreadyReadQuery"></p>
+    <div class="book-entry-container" ng-repeat="book in alreadyRead | filter:alreadyReadQuery | orderBy:orderProp">
+          <ng:include src="'template/book-entry.html'"></ng:include>
+    </div>
+     
+    <hr />
     
     <h3>About This Website</h3>
     
+    <hr />
     
     <h3>About Me</h3>
     
-    <br />
   </body>
 </html>

@@ -1,0 +1,100 @@
+[
+      {
+          "name": "Head First Design Patterns", 
+          "author": "Elisabeth Freeman, Eric Freeman, Bert Bates, Kathy Sierra",
+          "amazonLink": "http://www.amazon.com/First-Design-Patterns-Elisabeth-Freeman/dp/0596007124/ref=sr_1_1?s=books&ie=UTF8&qid=1298636150&sr=1-1",
+          "isbn": "0596007124",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51Q6l%2BMyLgL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+      },
+      {
+          "name": "Android In Action - 2nd Edition", 
+          "author": "Robi Sen",
+          "amazonLink": "http://www.amazon.com/Android-Action-Frank-Ableson/dp/1935182722/ref=sr_1_1?s=books&ie=UTF8&qid=1353325929&sr=1-1",
+          "isbn": "1935182722",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51JLqhpbneL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+      {
+          "name": "AdvancED Flex 3", 
+          "author": "Shashank Tiwari, Elad Elrom",
+          "amazonLink": "www.amazon.com/AdvancED-Friends-Abobe-Learning-Library/dp/1430210273/ref=sr_1_1?s=books&ie=UTF8&qid=1353326264&sr=1-1",
+          "isbn": "1430210273",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51v9ejO2nnL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+      },
+      {
+          "name": "Clean Code: A Handbook of Agile Software Craftsmanship", 
+          "author": "Robert C. Martin",
+          "amazonLink": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+          "isbn": "0132350882",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/41znMZniZ1L._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+     {
+          "name": "Agile Software Development, Principles, Patterns, and Practices", 
+          "author": "Robert C. Martin",
+          "amazonLink": "http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/ref=sr_1_3?s=books&ie=UTF8&qid=1298636232&sr=1-3",
+          "isbn": "0135974445",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/519J3P8ANML._SL500_AA300_.jpg"
+     },
+     {
+          "name": "Effective Java (2nd Eddition)", 
+          "author": "Joshua Bloch",
+          "amazonLink": "http://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683/ref=sr_1_fkmr0_1?ie=UTF8&qid=1298636251&sr=1-1-fkmr0",
+          "isbn": "0321356683",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51EHjWvpClL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+     {
+          "name": "97 Things Ever programmer should know", 
+          "author": "Collective Wisdom from the Experts",
+          "amazonLink": "http://www.amazon.com/K-Henneys97-Things-Every-Programmer-Should/dp/B003UPOS9Q/ref=sr_1_fkmr1_3?ie=UTF8&qid=1298636297&sr=1-3-fkmr1",
+          "isbn": "B003UPOS9Q",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51Ak5pMfNiL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+      {
+          "name": "JavaScript: The Good Parts", 
+          "author": "Douglas Crockford",
+          "amazonLink": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?s=books&ie=UTF8&qid=1298636355&sr=1-1",
+          "isbn": "0596517742",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51gdVAEfPUL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+      {
+          "name": "Implementation Patterns", 
+          "author": "Kent Beck",
+          "amazonLink": "http://www.amazon.com/Implementation-Patterns-Kent-Beck/dp/0321413091/ref=sr_1_1?ie=UTF8&s=books&qid=1298636506&sr=1-1",
+          "isbn": "0321413091",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51oesRtjLAL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+      {
+          "name": "Agile Retrospectives: Making Good Teams Great (Pragmatic Programmers)", 
+          "author": "Esther Derby (Author), Diana Larsen (Author), Ken Schwaber (Author)",
+          "amazonLink": "http://www.amazon.co.uk/Agile-Retrospectives-Making-Pragmatic-Programmers/dp/0977616649/ref=sr_1_1?ie=UTF8&qid=1300450047&sr=8-1",
+          "isbn": "0977616649",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/41zYK5oa1JL._SL500_AA300_.jpg"
+     },
+      {
+          "name": "Practices Of an Agile Developer", 
+          "author": "Venkat Subramaniam and Andy Hunt",
+          "amazonLink": "http://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X",
+          "isbn": "097451408X",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51dZeql37mL._SL500_AA300_.jpg"
+     },
+      {
+          "name": "Ship It", 
+          "author": "Jared Richardson, Will Gwaltney, Jr",
+          "amazonLink": "http://www.amazon.com/Practical-Guide-Successful-Software-Projects/dp/0974514047/ref=sr_1_1?s=books&ie=UTF8&qid=1353318937&sr=1-1",
+          "isbn": "N/A",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/41HvKfwP2hL._SL500_AA300_.jpg"
+     },
+      {
+          "name": "Growing Object Orientaed Software Guided By Tests", 
+          "author": "Steve Freeman & Nat Pryce",
+          "amazonLink": "www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/ref=sr_1_sc_1?s=books&ie=UTF8&qid=1353327256&sr=1-1-spell",
+          "isbn": "0321503627",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/51VI2SgJRwL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     },
+      {
+          "name": "Release It!: Design and Deploy Production-Ready Software (Pragmatic Programmers)", 
+          "author": "Michael T. Nygard",
+          "amazonLink": "www.amazon.com/Release-Production-Ready-Software-Pragmatic-Programmers/dp/0978739213/ref=sr_1_1?s=books&ie=UTF8&qid=1353327324&sr=1-1",
+          "isbn": "0978739213",
+          "imageUrl": "http://ecx.images-amazon.com/images/I/41Iz-tBN5OL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg"
+     }
+]
