@@ -10,31 +10,40 @@
     
     <title>Reading List</title>
   </head>
+
   <body ng-controller="ReadingListCtrl">
     
-    <h3>Currently Reading</h3>
-    <p>Total: {{currentlyReading.length}}</p>
-    <p>Search: <input ng-model="currentBooksQuery"></p>
+    <h3>Currently Reading | Total : ({{currentlyReading.length}})</h3>
+    <p>Search: <input ng-model="currentBooksQuery"> | Found <strong>{{(currentlyReading|filter:currentBooksQuery).length}}</strong> results</p>
     <div class="book-entry-container" ng-repeat="book in currentlyReading | filter:currentBooksQuery | orderBy:orderProp">
         <ng:include src="'template/book-entry.html'"></ng:include>    
     </div>
     
     <hr />
     
-    <h3>Already Read</h3>
-    <p>Total: {{alreadyRead.length}}</p>
-    <p>Search: <input ng-model="alreadyReadQuery"></p>
+    <h3>Already Read | Total : ({{alreadyRead.length}})</h3>
+    <p>Search: <input ng-model="alreadyReadQuery"> | Found <strong>{{(alreadyRead|filter:alreadyReadQuery).length}}</strong> results</p>
     <div class="book-entry-container" ng-repeat="book in alreadyRead | filter:alreadyReadQuery | orderBy:orderProp">
           <ng:include src="'template/book-entry.html'"></ng:include>
     </div>
      
     <hr />
     
+    <h3>Future Reading | Total : ({{futureReads.length}})</h3>
+    <p>Search: <input ng-model="futureReadsQuery"> | Found <strong>{{(futureReads|filter:futureReadsQuery).length}}</strong> results</p>
+    <div class="book-entry-container" ng-repeat="book in futureReads | filter:futureReadsQuery | orderBy:orderProp">
+          <ng:include src="'template/book-entry.html'"></ng:include>
+    </div>
+
+    <hr />
+    
     <h3>About This Website</h3>
+    <ng:include src="'template/about-website.html'"></ng:include>    
     
     <hr />
     
     <h3>About Me</h3>
+    <ng:include src="'template/about.html'"></ng:include>
     
   </body>
 </html>
